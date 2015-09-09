@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>EzSample_PriorityOfGenericsTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B1299FBB1B9F1FA300B0D16E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1299FD31B9F201F00B0D16E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
