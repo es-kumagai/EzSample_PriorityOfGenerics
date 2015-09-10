@@ -8,5 +8,6 @@
 
 enum MyEnum {
 	
-	case A, B
+	case A
+	case B
 }
