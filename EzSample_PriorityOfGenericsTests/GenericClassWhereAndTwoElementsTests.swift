@@ -25,16 +25,20 @@ class GenericClassWhereAndTwoElementsTests: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    func testCross() {
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
+//		let a:MyClassA = MyClassA()
+//		let subBaseBWithC:MySubClassBWithC = MySubClassBWithC()
+//		let subBaseBWithCAsB:MyClassB = MySubClassBWithC()
+//		
+//		let subBaseAWithC:MySubClassAWithC = MySubClassAWithC()
+//		let subBaseAWithCAsA:MyClassA = MySubClassAWithC()
+
+		// SubB : B, ProC で B: ProB のときに
+		// SubB かつ ProC や B かつ ProC を検証しようと思いましたが、
+		// ジェネリックでは型で縛った後にそれが準拠するプロトコルで判定みたいなことができないため、
+		// 検証することがありませんでした。
+		// 型のエクステンションだと少し違ってくるかもしれませんが、そうでもないかもしれません。
+	}
 
 }
